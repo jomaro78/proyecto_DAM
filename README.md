@@ -22,6 +22,7 @@ Aplicación Android desarrollada en Kotlin para la organización y consulta de e
 - Glide (para carga de imágenes)
 
 ## Estructura del código
+
 app
 
 └── src

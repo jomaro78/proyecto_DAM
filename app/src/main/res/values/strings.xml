@@ -167,7 +167,7 @@
     <!-- Others -->
     <string name="app_name">Eventos</string>
     <string name="default_web_client_id">248875847180-dioh9rphbo6cqndf7ri1u0b570jg5hol.apps.googleusercontent.com</string>
-    <string name="google_maps_key">AIzaSyDuWP4xg2H86R3So87kuYQMvjf1TU7yBKo</string>
+    <string name="google_maps_key"></string>
 
     <!-- nav_graph -->
     <string name="title_home">Eventos disponibles</string>

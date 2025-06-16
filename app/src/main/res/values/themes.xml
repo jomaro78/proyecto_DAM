@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Esdeveniments" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="buttonStyle">@style/CustomButton</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+    </style>
+
+    <style name="Theme.Esdeveniments" parent="Base.Theme.Esdeveniments" />
+
+    <style name="CustomButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="cornerRadius">24dp</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+</resources>

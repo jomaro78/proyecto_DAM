@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Grupo: opciones generales -->
+    <group android:id="@+id/group_general">
+        <item
+            android:id="@+id/nav_preferences"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="@string/nav_preferences" />
+
+        <item
+            android:id="@+id/nav_toggle_theme"
+            android:title="Cambiar tema"
+            android:icon="@drawable/ic_system" />
+    </group>
+
+    <!-- Separador visual -->
+    <item android:title=" " />
+
+    <!-- Grupo: organizador -->
+    <group android:id="@+id/group_organizer">
+        <item
+            android:id="@+id/nav_create_event"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="@string/nav_create_event"
+            android:visible="false"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/nav_suggest_category"
+            android:title="@string/nav_suggest_category"
+            android:icon="@drawable/ic_request"
+            android:visible="false" />
+    </group>
+
+    <!-- Separador visual -->
+    <item android:title=" " />
+
+    <!-- Cierre de sesión -->
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="@string/nav_logout" />
+</menu>

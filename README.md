@@ -24,6 +24,7 @@ Aplicación Android desarrollada en Kotlin para la organización y consulta de e
 ## Estructura del código
 
 app
+
 └── src
      └── main     
           ├── java/com/montilivi/esdeveniments          

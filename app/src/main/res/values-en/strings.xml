@@ -1,0 +1,189 @@
+<resources>
+    <!-- bottom_nav_menu -->
+    <string name="homeFragment">Explore</string>
+    <string name="pastEventsFragment">Past</string>
+    <string name="subscribedEventsFragment">Subscribed</string>
+
+    <!-- drawer_menu -->
+    <string name="nav_create_event">Create Event</string>
+    <string name="nav_logout">Logout</string>
+    <string name="nav_preferences">Preferences</string>
+    <string name="nav_suggest_category">Suggest Category</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="day_mode">Day Mode</string>
+    <string name="system_theme">System Theme</string>
+
+    <!-- fragment_chat -->
+    <string name="send_message">Send</string>
+    <string name="write_message">Type a message</string>
+
+    <string name="empty_message_warning">Empty message</string>
+    <string name="chat_toolbar_stats">%1$d participants | %2$d online</string>
+
+    <!-- fragment_create_event -->
+    <string name="category">Category</string>
+    <string name="create_event">Create Event</string>
+    <string name="description">Description</string>
+    <string name="event_image_description">Event Image</string>
+    <string name="no_date_selected">No date selected</string>
+    <string name="no_location_selected">No location selected</string>
+    <string name="select_date_time">Select date and time</string>
+    <string name="select_image_event">Select image</string>
+    <string name="select_location">Select location</string>
+    <string name="title">Title</string>
+
+    <string name="select_category">Select category</string>
+    <string name="permission_denied">You do not have permission to create events</string>
+    <string name="permission_error">Error verifying permissions</string>
+    <string name="update_event">Update event</string>
+    <string name="event_date_range">From %1$s to %2$s</string>
+    <string name="error_loading_categories">Error loading categories</string>
+    <string name="event_start_too_soon">Event must start at least two days from now</string>
+    <string name="select_image_title">Select an image</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="fill_all_fields">Please fill in all fields</string>
+    <string name="upload_image_error">Error uploading image</string>
+    <string name="event_created_success">Event created successfully</string>
+    <string name="event_creation_error">Error creating event</string>
+    <string name="title_required">A title is required</string>
+    <string name="description_required">Description required</string>
+    <string name="location_required">Location required</string>
+    <string name="category_required">Category required</string>
+    <string name="invalid_dates">End date must be after start date</string>
+    <string name="image_required">You must select an image for the event</string>
+    <string name="event_2_days_notice">Event must be created with at least 2 days in advance</string>
+
+    <!-- fragment_event_detail -->
+    <string name="access_chat">Go to chat</string>
+    <string name="delete_event">Delete event</string>
+    <string name="edit_event">Edit event</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="loading">Loading…</string>
+    <string name="how_to_get_there">How to get here?</string>
+
+    <string name="event_delete_title">Delete event?</string>
+    <string name="event_delete_message">This action cannot be undone.</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="event_deleted">Event deleted</string>
+    <string name="error_deleting_event">Failed to delete</string>
+    <string name="unsubscribe">Unsubscribe</string>
+    <string name="subscriber_count">%1$d subscribers</string>
+    <string name="no_maps_found">Google Maps not found</string>
+
+    <!-- fragment_event_dialog -->
+    <string name="events_on_day">Events on this date</string>
+    <string name="no_events_on_day">You have no events on this date</string>
+
+    <string name="event_start_time">Starts at: %1$s</string>
+
+    <!-- fragment_home -->
+    <string name="no_events_to_show">No events to show</string>
+
+    <!-- fragment_login -->
+    <string name="email">Email</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="login">Log in</string>
+    <string name="login_google">Continue with Google</string>
+    <string name="logo_image_description">App logo</string>
+    <string name="or">or</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+
+    <string name="login_error_credentials">Login failed. Please check your credentials.</string>
+    <string name="login_error_google">Google login failed.</string>
+    <string name="login_error_google_token_missing">Google token not found.</string>
+    <string name="login_error_google_exception">Google Sign-In error.</string>
+    <string name="login_error_user_verification">Error verifying user.</string>
+    <string name="reset_email_sent">Recovery email sent</string>
+    <string name="reset_email_failed">Could not send recovery email</string>
+
+    <!-- fragment_past_events -->
+    <string name="no_finished_events">No past events</string>
+
+    <!-- fragment_preferences -->
+    <string name="distance">Distance</string>
+    <string name="get_location">Get location</string>
+    <string name="location_not_set">Location not set</string>
+    <string name="no_categories_selected">No categories selected</string>
+    <string name="organizer_checkbox">I am an organizer</string>
+    <string name="profile_image">Profile image</string>
+    <string name="save_preferences">Save preferences</string>
+    <string name="select_categories">Select categories</string>
+    <string name="select_image">Select image</string>
+    <string name="username">Username</string>
+
+    <string name="location_permission_denied">Permission denied</string>
+    <string name="no_categories_available">No categories available</string>
+    <string name="preferences_saved">Preferences saved</string>
+    <string name="save_preferences_error">Error saving preferences: %1$s</string>
+    <string name="ad_select_categories">Select categoríes</string>
+    <string name="ad_accept">Accept</string>
+    <string name="ad_cancel">Cancel</string>
+    <string name="pf_distance">Distance: %1$d km</string>
+    <string name="pf_ubication">Ubication: %1$f, %2$f</string>
+    <string name="username_required">Username is required</string>
+
+
+    <!-- fragment_register -->
+    <string name="already_have_account">Already have an account?</string>
+
+    <string name="email_password_required">Email and password are required</string>
+    <string name="invalid_email">Please enter a valid email</string>
+
+    <!-- fragment_select_location -->
+    <string name="confirm_location">Confirm location</string>
+
+    <string name="error_place_search">Error searching for place: %1$s</string>
+    <string name="invalid_location">Please select a valid location</string>
+
+    <!-- fragment_subscribed_events -->
+    <string name="no_subscribed_events">You are not subscribed to any event</string>
+
+    <!-- fragment_suggest_category -->
+    <string name="send">Send</string>
+    <string name="suggest_category_hint">Suggest new category</string>
+
+    <string name="suggest_category_empty">Enter a category</string>
+    <string name="suggest_category_success">Suggestion sent</string>
+    <string name="suggest_category_load_error">Error loading suggestions</string>
+    <string name="suggest_category_already_exists">This category has already been suggested</string>
+    <string name="suggest_category_submit_error">Could not send suggestion</string>
+    <string name="suggest_category_generic_error">An error occurred</string>
+
+    <!-- item_event -->
+    <string name="event_category_placeholder">Category</string>
+    <string name="event_date_placeholder">Date</string>
+    <string name="event_image_description_card">Event image</string>
+    <string name="event_location_placeholder">Location</string>
+    <string name="event_status_finished">Finished</string>
+    <string name="event_title_placeholder">Title</string>
+
+    <!-- nav_header -->
+    <string name="drawer_user_name">Username</string>
+
+    <!-- nav_graph -->
+    <string name="title_home">Available Events</string>
+    <string name="title_login">Login</string>
+    <string name="title_register">Register</string>
+    <string name="title_preferences">Preferences</string>
+    <string name="title_event_detail">Event</string>
+    <string name="title_create_event">Create Event</string>
+    <string name="title_select_location">Select Location</string>
+    <string name="title_subscribed_events">Subscriptions</string>
+    <string name="title_past_events">Past Events</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_suggest_category">Suggest Category</string>
+    <string name="title_calendar">Calendar</string>
+
+    <!-- stringUtils -->
+    <string name="event_range_different_years">From %1$s to %2$s at %3$s</string>
+    <string name="event_one_day">%1$d of %2$s at %3$s</string>
+    <string name="event_two_consecutive_days">%1$d and %2$d of %3$s at %4$s</string>
+    <string name="event_range_same_month">From %1$d to %2$d of %3$s at %4$s</string>
+
+    <!-- Unused Strings -->
+    <string name="app_name">Events</string>
+
+</resources>

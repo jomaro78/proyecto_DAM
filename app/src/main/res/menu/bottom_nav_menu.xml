@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/homeFragment" />
+
+    <item
+        android:id="@+id/subscribedEventsFragment"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/subscribedEventsFragment" />
+
+    <item
+        android:id="@+id/pastEventsFragment"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/pastEventsFragment" />
+</menu>

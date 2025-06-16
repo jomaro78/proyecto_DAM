@@ -1,0 +1,189 @@
+<resources>
+    <!-- bottom_nav_menu -->
+    <string name="homeFragment">Explora</string>
+    <string name="pastEventsFragment">Finalitzats</string>
+    <string name="subscribedEventsFragment">Subscrit</string>
+
+    <!-- drawer_menu -->
+    <string name="nav_create_event">Crear esdeveniment</string>
+    <string name="nav_logout">Tanca sessió</string>
+    <string name="nav_preferences">Preferències</string>
+    <string name="nav_suggest_category">Suggereix categoria</string>
+    <string name="night_mode">Modo nit</string>
+    <string name="day_mode">Modo día</string>
+    <string name="system_theme">Tema del sistema</string>
+
+    <!-- fragment_chat -->
+    <string name="send_message">Envia</string>
+    <string name="write_message">Escriu un missatge</string>
+
+    <string name="empty_message_warning">Missatge buit</string>
+    <string name="chat_toolbar_stats">%1$d participants | %2$d en línea</string>
+
+    <!-- fragment_create_event -->
+    <string name="category">Categoria</string>
+    <string name="create_event">Crear esdeveniment</string>
+    <string name="description">Descripció</string>
+    <string name="event_image_description">Imatge de l\'esdeveniment</string>
+    <string name="no_date_selected">Data no seleccionada</string>
+    <string name="no_location_selected">Ubicació no seleccionada</string>
+    <string name="select_date_time">Seleccionar data i hora</string>
+    <string name="select_image_event">Seleccionar imatge</string>
+    <string name="select_location">Seleccionar ubicació</string>
+    <string name="title">Títol</string>
+
+    <string name="select_category">Seleccionar categoría</string>
+    <string name="permission_denied">No tens permís per crear esdeveniments</string>
+    <string name="permission_error">Error en verificar permisos</string>
+    <string name="update_event">Actualitzar esdeveniment</string>
+    <string name="event_date_range">Del %1$s al %2$s</string>
+    <string name="error_loading_categories">Error en carregar categories</string>
+    <string name="event_start_too_soon">L\'esdeveniment ha de començar com a mínim d\'aquí a dos dies</string>
+    <string name="select_image_title">Selecciona una imatge</string>
+    <string name="gallery">Galeria</string>
+    <string name="camera">Càmera</string>
+    <string name="fill_all_fields">Completa tots els camps</string>
+    <string name="upload_image_error">Error en pujar la imatge</string>
+    <string name="event_created_success">Esdeveniment creat amb èxit</string>
+    <string name="event_creation_error">Error en crear esdeveniment</string>
+    <string name="title_required">El títol es obligatori</string>
+    <string name="description_required">La descripció es obligatoria</string>
+    <string name="location_required">La ubicació es obligatoria</string>
+    <string name="category_required">La categoría es obligatoria</string>
+    <string name="invalid_dates">La data de inici no pot ser anterior a la d\'inici</string>
+    <string name="image_required">Has de seleccionar una imatge per l\'esdeveniment</string>
+    <string name="event_2_days_notice">El evento debe crearse con al menos 2 días de antelación</string>
+
+    <!-- fragment_event_detail -->
+    <string name="access_chat">Anar al xat</string>
+    <string name="delete_event">Eliminar esdeveniment</string>
+    <string name="edit_event">Editar esdeveniment</string>
+    <string name="subscribe">Subscriure\'s</string>
+    <string name="loading">Carregant…</string>
+    <string name="how_to_get_there">Com arribar?</string>
+
+    <string name="event_delete_title">Eliminar esdeveniment?</string>
+    <string name="event_delete_message">Aquesta acció no es pot desfer.</string>
+    <string name="yes">Sí</string>
+    <string name="cancel">Cancel·la</string>
+    <string name="event_deleted">Esdeveniment eliminat</string>
+    <string name="error_deleting_event">Error en eliminar</string>
+    <string name="unsubscribe">Cancel·lar subscripció</string>
+    <string name="subscriber_count">%1$d persones subscrites</string>
+    <string name="no_maps_found">No s\'ha trobat Google Maps</string>
+
+    <!-- fragment_event_dialog -->
+    <string name="events_on_day">Esdeveniments en aquesta data</string>
+    <string name="no_events_on_day">No tens esdeveniments en aquesta data</string>
+
+    <string name="event_start_time">Inici: %1$s</string>
+
+    <!-- fragment_home -->
+    <string name="no_events_to_show">No hi ha esdeveniments per mostrar</string>
+
+    <!-- fragment_login -->
+    <string name="email">Correu electrònic</string>
+    <string name="forgot_password">Has oblidat la contrasenya?</string>
+    <string name="login">Inicia sessió</string>
+    <string name="login_google">Continua amb Google</string>
+    <string name="logo_image_description">Logotip de l\'aplicació</string>
+    <string name="or">o</string>
+    <string name="password">Contrasenya</string>
+    <string name="register">Registra\'t</string>
+
+    <string name="login_error_credentials">Error al iniciar sesión. Verifica tus credenciales.</string>
+    <string name="login_error_google">Error al iniciar sesión con Google.</string>
+    <string name="login_error_google_token_missing">Token de Google no encontrado.</string>
+    <string name="login_error_google_exception">Error con Google Sign-In.</string>
+    <string name="login_error_user_verification">Error al verificar el usuario.</string>
+    <string name="reset_email_sent">Correu de recuperació enviat</string>
+    <string name="reset_email_failed">No s\'ha pogut enviar el correu de recuperació</string>
+
+    <!-- fragment_past_events -->
+    <string name="no_finished_events">No hi ha esdeveniments finalitzats</string>
+
+    <!-- fragment_preferences -->
+    <string name="distance">Distància</string>
+    <string name="get_location">Obtenir ubicació</string>
+    <string name="location_not_set">Ubicació no configurada</string>
+    <string name="no_categories_selected">No s\'han seleccionat categories</string>
+    <string name="organizer_checkbox">Sóc organitzador</string>
+    <string name="profile_image">Imatge de perfil</string>
+    <string name="save_preferences">Desar preferències</string>
+    <string name="select_categories">Seleccionar categories</string>
+    <string name="select_image">Seleccionar imatge</string>
+    <string name="username">Nom d\'usuari</string>
+
+    <string name="location_permission_denied">Permís denegat</string>
+    <string name="no_categories_available">No hi ha categories disponibles</string>
+    <string name="preferences_saved">Preferències desades</string>
+    <string name="save_preferences_error">Error en desar preferències: %1$s</string>
+    <string name="ad_select_categories">Selecciona categoríes</string>
+    <string name="ad_accept">Acceptar</string>
+    <string name="ad_cancel">Cancel·lar</string>
+    <string name="pf_distance">Distancia: %1$d km</string>
+    <string name="pf_ubication">Ubicació: %1$f, %2$f</string>
+    <string name="username_required">El nom d\'usuari es obligatori</string>
+
+
+    <!-- fragment_register -->
+    <string name="already_have_account">Ja tens compte?</string>
+
+    <string name="email_password_required">Cal introduir correu i contrasenya</string>
+    <string name="invalid_email">Introdueix un correu electrònic vàlid</string>
+
+    <!-- fragment_select_location -->
+    <string name="confirm_location">Confirmar ubicació</string>
+
+    <string name="error_place_search">Error en cercar el lloc: %1$s</string>
+    <string name="invalid_location">Selecciona una ubicació vàlida</string>
+
+    <!-- fragment_subscribed_events -->
+    <string name="no_subscribed_events">No estàs subscrit a cap esdeveniment</string>
+
+    <!-- fragment_suggest_category -->
+    <string name="send">Envia</string>
+    <string name="suggest_category_hint">Suggereix nova categoria</string>
+
+    <string name="suggest_category_empty">Escriu una categoria</string>
+    <string name="suggest_category_success">Suggeriment enviat</string>
+    <string name="suggest_category_load_error">Error en carregar suggeriments</string>
+    <string name="suggest_category_already_exists">La categoria ja ha estat suggerida</string>
+    <string name="suggest_category_submit_error">No s\'ha pogut enviar el suggeriment</string>
+    <string name="suggest_category_generic_error">S\'ha produït un error</string>
+
+    <!-- item_event -->
+    <string name="event_category_placeholder">Categoria</string>
+    <string name="event_date_placeholder">Data</string>
+    <string name="event_image_description_card">Imatge de l\'esdeveniment</string>
+    <string name="event_location_placeholder">Ubicació</string>
+    <string name="event_status_finished">Finalitzat</string>
+    <string name="event_title_placeholder">Títol</string>
+
+    <!-- nav_header -->
+    <string name="drawer_user_name">Nom d\'usuari</string>
+
+    <!-- stringUtils -->
+    <string name="event_range_different_years">Del %1$s al %2$s a les %3$s</string>
+    <string name="event_one_day">%1$d de %2$s a les %3$s</string>
+    <string name="event_two_consecutive_days">%1$d i %2$d de %3$s a les %4$s</string>
+    <string name="event_range_same_month">Del %1$d al %2$d de %3$s a les %4$s</string>
+
+    <!-- nav_graph -->
+    <string name="title_home">Esdeveniments disponibles</string>
+    <string name="title_login">Inici de sessió</string>
+    <string name="title_register">Registrar-se</string>
+    <string name="title_preferences">Preferències</string>
+    <string name="title_event_detail">Esdeveniment</string>
+    <string name="title_create_event">Crear esdeveniment</string>
+    <string name="title_select_location">Seleccionar ubicació</string>
+    <string name="title_subscribed_events">Subscripcions</string>
+    <string name="title_past_events">Esdeveniments finalitzats</string>
+    <string name="title_chat">Xat</string>
+    <string name="title_suggest_category">Suggereix categoria</string>
+    <string name="title_calendar">Calendari</string>
+
+    <!-- Unused Strings -->
+    <string name="app_name">Esdeveniments</string>
+
+</resources>

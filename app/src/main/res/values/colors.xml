@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Colores personalizados (modo claro) -->
+    <color name="colorPrimary">#7B61FF</color>
+    <color name="colorPrimaryVariant">#5E44D9</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <color name="colorSecondary">#03DAC6</color>
+    <color name="colorSecondaryVariant">#018786</color>
+    <color name="colorOnSecondary">#000000</color>
+
+    <color name="colorBackground">#F9F9F9</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnBackground">#121212</color>
+
+    <color name="colorSurfaceVariant">#EEEEEE</color>
+    <color name="colorOnSurfaceVariant">#333333</color>
+
+    <color name="categoryTextDefault">#111111</color>
+
+    <!-- Otros colores opcionales -->
+    <color name="colorError">#CF6679</color>
+
+</resources>

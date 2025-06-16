@@ -1,0 +1,196 @@
+<resources>
+    <!-- bottom_nav_menu -->
+    <string name="homeFragment">Explorar</string>
+    <string name="pastEventsFragment">Finalizados</string>
+    <string name="subscribedEventsFragment">Suscrito</string>
+
+    <!-- drawer_menu -->
+    <string name="nav_create_event">Crear evento</string>
+    <string name="nav_logout">Cerrar sesión</string>
+    <string name="nav_preferences">Preferencias</string>
+    <string name="nav_suggest_category">Sugerir categoría</string>
+    <string name="night_mode">Modo noche</string>
+    <string name="day_mode">Modo día</string>
+    <string name="system_theme">Tema del sistema</string>
+
+    <!-- fragment_chat -->
+    <string name="send_message">Enviar</string>
+    <string name="write_message">Escribe un mensaje</string>
+
+    <string name="empty_message_warning">Mensaje vacío</string>
+    <string name="chat_toolbar_stats">%1$d participantes | %2$d en línea</string>
+
+    <!-- fragment_create_event -->
+    <string name="category">Categoria</string>
+    <string name="create_event">Crear evento</string>
+    <string name="description">Descripción</string>
+    <string name="event_image_description">Imagen del evento</string>
+    <string name="no_date_selected">Fecha no seleccionada</string>
+    <string name="no_location_selected">Ubicación no seleccionada</string>
+    <string name="select_date_time">Seleccionar fecha y hora</string>
+    <string name="select_image_event">Seleccionar imagen</string>
+    <string name="select_location">Seleccionar ubicación</string>
+    <string name="title">Título</string>
+
+    <string name="select_category">Seleccionar categoría</string>
+    <string name="permission_denied">No tienes permiso para crear eventos</string>
+    <string name="permission_error">Error al verificar permisos</string>
+    <string name="update_event">Actualizar evento</string>
+    <string name="event_date_range">Del %1$s al %2$s</string>
+    <string name="error_loading_categories">Error cargando categorías</string>
+    <string name="event_start_too_soon">El evento debe comenzar al menos dentro de dos días</string>
+    <string name="select_image_title">Selecciona una imagen</string>
+    <string name="gallery">Galería</string>
+    <string name="camera">Cámara</string>
+    <string name="fill_all_fields">Completa todos los campos</string>
+    <string name="upload_image_error">Error al subir imagen</string>
+    <string name="event_created_success">Evento creado con éxito</string>
+    <string name="event_creation_error">Error al crear evento</string>
+    <string name="title_required">El título es obligatorio</string>
+    <string name="description_required">La descripción es obligatoria</string>
+    <string name="location_required">La ubicación es obligatoria</string>
+    <string name="category_required">La categoría es obligatoria</string>
+    <string name="invalid_dates">La fecha de fin no puede ser anterior a la de inicio</string>
+    <string name="image_required">Debes seleccionar una imagen para el evento</string>
+    <string name="event_2_days_notice">El evento debe crearse con al menos 2 días de antelación</string>
+
+    <!-- fragment_event_detail -->
+    <string name="access_chat">Ir al chat</string>
+    <string name="delete_event">Eliminar evento</string>
+    <string name="edit_event">Editar evento</string>
+    <string name="subscribe">Suscribirse</string>
+    <string name="loading">Cargando…</string>
+    <string name="how_to_get_there">¿Cómo llegar?</string>
+
+    <string name="event_delete_title">¿Eliminar evento?</string>
+    <string name="event_delete_message">Esta acción no se puede deshacer.</string>
+    <string name="yes">Sí</string>
+    <string name="cancel">Cancelar</string>
+    <string name="event_deleted">Evento eliminado</string>
+    <string name="error_deleting_event">Error al eliminar</string>
+    <string name="unsubscribe">Cancelar suscripción</string>
+    <string name="subscriber_count">%1$d personas suscritas</string>
+    <string name="no_maps_found">No se encontró Google Maps</string>
+
+    <!-- fragment_event_dialog -->
+    <string name="events_on_day">Eventos en esta fecha</string>
+    <string name="no_events_on_day">No hay eventos en esta fecha</string>
+
+    <string name="event_start_time">Inicio: %1$s</string>
+
+
+    <!-- fragment_home -->
+    <string name="no_events_to_show">No hay eventos para mostrar</string>
+
+    <!-- fragment_login -->
+    <string name="email">Correo electrónico</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="login_google">Continuar con Google</string>
+    <string name="logo_image_description">Logo de la aplicación</string>
+    <string name="or">o</string>
+    <string name="password">Contraseña</string>
+    <string name="register">Registrarse</string>
+
+    <string name="login_error_credentials">Error al iniciar sesión. Verifica tus credenciales.</string>
+    <string name="login_error_google">Error al iniciar sesión con Google.</string>
+    <string name="login_error_google_token_missing">Token de Google no encontrado.</string>
+    <string name="login_error_google_exception">Error con Google Sign-In.</string>
+    <string name="login_error_user_verification">Error al verificar el usuario.</string>
+    <string name="reset_email_sent">Correo de recuperación enviado</string>
+    <string name="reset_email_failed">No se pudo enviar el correo de recuperación</string>
+
+    <!-- fragment_past_events -->
+    <string name="no_finished_events">No hay eventos finalizados</string>
+
+    <!-- fragment_preferences -->
+    <string name="distance">Distancia</string>
+    <string name="get_location">Obtener ubicación</string>
+    <string name="location_not_set">Ubicación no configurada</string>
+    <string name="no_categories_selected">No se han seleccionado categorías</string>
+    <string name="organizer_checkbox">Soy organizador</string>
+    <string name="profile_image">Imagen de perfil</string>
+    <string name="save_preferences">Guardar preferencias</string>
+    <string name="select_categories">Seleccionar categorías</string>
+    <string name="select_image">Seleccionar imagen</string>
+    <string name="username">Nombre de usuario</string>
+
+    <string name="location_permission_denied">Permiso denegado</string>
+    <string name="no_categories_available">No hay categorías disponibles</string>
+    <string name="preferences_saved">Preferencias guardadas</string>
+    <string name="save_preferences_error">Error al guardar: %1$s</string>
+    <string name="ad_select_categories">Selecciona categorías</string>
+    <string name="ad_accept">Aceptar</string>
+    <string name="ad_cancel">Cancelar</string>
+    <string name="pf_distance">Distancia: %1$d km</string>
+    <string name="pf_ubication">Ubicación: %1$f, %2$f</string>
+    <string name="username_required">El nombre de usuario es obligatorio</string>
+
+
+    <!-- fragment_register -->
+    <string name="already_have_account">¿Ya tienes cuenta?</string>
+
+    <string name="email_password_required">Email y contraseña requeridos</string>
+    <string name="invalid_email">Introduce un email válido</string>
+
+    <!-- fragment_select_location -->
+    <string name="confirm_location">Confirmar ubicación</string>
+
+    <string name="error_place_search">Error al buscar lugar: %1$s</string>
+    <string name="invalid_location">Selecciona una ubicación válida</string>
+
+    <!-- fragment_subscribed_events -->
+    <string name="no_subscribed_events">No estás suscrito a ningún evento</string>
+
+    <!-- fragment_suggest_category -->
+    <string name="send">Enviar</string>
+    <string name="suggest_category_hint">Sugerir nueva categoría</string>
+
+    <string name="suggest_category_empty">Escribe una categoría</string>
+    <string name="suggest_category_success">Sugerencia enviada</string>
+    <string name="suggest_category_load_error">Error al cargar sugerencias</string>
+    <string name="suggest_category_already_exists">La categoría ya ha sido sugerida</string>
+    <string name="suggest_category_submit_error">No se pudo enviar la sugerencia</string>
+    <string name="suggest_category_generic_error">Error al procesar la solicitud</string>
+
+    <!-- item_event -->
+    <string name="event_category_placeholder">Categoría</string>
+    <string name="event_date_placeholder">Fecha</string>
+    <string name="event_image_description_card">Imagen del evento</string>
+    <string name="event_location_placeholder">Ubicación</string>
+    <string name="event_status_finished">Finalizado</string>
+    <string name="event_title_placeholder">Título</string>
+
+    <!-- nav_header -->
+    <string name="drawer_user_name">Nombre de usuario</string>
+
+    <!-- Others -->
+    <string name="app_name">Eventos</string>
+    <string name="default_web_client_id">248875847180-dioh9rphbo6cqndf7ri1u0b570jg5hol.apps.googleusercontent.com</string>
+    <string name="google_maps_key">AIzaSyDuWP4xg2H86R3So87kuYQMvjf1TU7yBKo</string>
+
+    <!-- nav_graph -->
+    <string name="title_home">Eventos disponibles</string>
+    <string name="title_login">Login</string>
+    <string name="title_register">Register</string>
+    <string name="title_preferences">Preferences</string>
+    <string name="title_event_detail">Evento</string>
+    <string name="title_create_event">Crear Evento</string>
+    <string name="title_select_location">Seleccionar Ubicación</string>
+    <string name="title_subscribed_events">Suscripciones</string>
+    <string name="title_past_events">Eventos finalizados</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_suggest_category">Sugerir categoría</string>
+    <string name="title_calendar">Calendario</string>
+
+    <!-- stringUtils -->
+    <string name="event_range_different_years">Del %1$s al %2$s a las %3$s</string>
+    <string name="event_one_day">%1$d de %2$s a las %3$s</string>
+    <string name="event_two_consecutive_days">%1$d y %2$d de %3$s a las %4$s</string>
+    <string name="event_range_same_month">Del %1$d al %2$d de %3$s a las %4$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+
+
+</resources>

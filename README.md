@@ -9,6 +9,7 @@ Aplicación Android desarrollada en Kotlin para la organización y consulta de e
 - Vista de eventos por categoría
 - Gestión de favoritos y eventos suscritos
 - Ubicación geográfica de eventos
+- Uso de la funcionalidad de maps de "cómo llegar"
 - Chat en tiempo real
 - Arquitectura modular basada en MVVM
 
@@ -39,7 +40,8 @@ app
 
 1. Clonar el repositorio
 2. Añadir tu archivo `google-services.json` en `app/`
-3. Compilar desde Android Studio
+3. Anadir API de google cloud para el uso de maps
+4. Compilar desde Android Studio
 
 > Nota: el archivo `google-services.json` no se incluye por motivos de seguridad
 
